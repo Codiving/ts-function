@@ -1,7 +1,7 @@
 {
-  "name": "ts-function",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ts-function-for-test",
+  "version": "0.0.1",
+  "description": "Test project for npm publish",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -9,9 +9,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "test"
+  ],
+  "repository": {
+    "url": "https://github.com/Codiving/ts-function"
+  },
+  "author": "Codiving",
+  "license": "MIT",
   "devDependencies": {
     "tsup": "^8.1.0",
     "typescript": "^5.5.2"
